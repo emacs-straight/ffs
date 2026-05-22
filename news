@@ -1,0 +1,104 @@
+                          ━━━━━━━━━━━━━━━━━━━
+                           CHANGE LOG OF FFS
+                          ━━━━━━━━━━━━━━━━━━━
+
+
+The newest release is at the top.  For further details, please consult
+the `ffs' manual: <https://kelar.org/~bandali/gnu/emacs/ffs.html>.
+
+Table of Contents
+─────────────────
+
+Version 0.2.2 on 2026-05-21
+Version 0.2.1 on 2026-05-20
+Version 0.2.0 on 2026-05-19
+
+
+Version 0.2.2 on 2026-05-21
+═══════════════════════════
+
+  First release of `ffs' on GNU ELPA.
+
+  The attempted build of ffs 0.2.1 within GNU ELPA build sandbox failed
+  with an `Error: void-function (org-texinfo-kbd-macro)' due to use of
+  `#+macro: kbd (eval (org-texinfo-kbd-macro $1))' in ffs.org for better
+  formatting of key sequences in the exported Texinfo copy.  This seems
+  to have happened for the specific case of generating a plain text
+  README using `ox-ascii' where ELPA didn't load `ox-texinfo'.  To try
+  and mitigate this, a `README.md' has been added for use as the package
+  README instead of ffs.org.  If not sufficient, a Texinfo copy of the
+  ffs manual will be shipped instead of the Org one in the next release.
+
+  ffs 0.2.2 also includes small fixes and improvements throughout
+  `ffs.el' from Stefan Monnier, and additional feedback to be addressed
+  in future releases.
+
+
+Version 0.2.1 on 2026-05-20
+═══════════════════════════
+
+  The attempted build of ffs 0.2.0 within GNU ELPA build sandbox failed
+  with a "Cannot include file" error on the "#+include: fdl.org" in the
+  manual.  So, as a workaround, we switch to using the official Texinfo
+  copy of the GNU FDL license rather than an Org copy.
+
+
+Version 0.2.0 on 2026-05-19
+═══════════════════════════
+
+  First release of `ffs' intended for GNU ELPA.
+
+  After a few years of inactivity, in early 2026 I decided to dust off
+  `ffs.el', polish and document it, and offer for inclusion in GNU ELPA
+  as a proper package.
+
+
+Default value of `ffs-default-face-height' changed to nil
+─────────────────────────────────────────────────────────
+
+  To minimize unexpected and/or unnecessary changes out-of-the-box, the
+  default value of `ffs-default-face-height' has been changed to nil.
+
+
+`ffs-edit-buffer-name' demoted from user option to variable
+───────────────────────────────────────────────────────────
+
+  This is not an important user-facing setting, so to help avoid
+  overwhelming users with many options, this has been demoted from a
+  user option to a variable.
+
+
+Several new user options for customizing `ffs''s behaviour
+──────────────────────────────────────────────────────────
+
+  As part of the effort to bring `ffs' more in line with the conventions
+  of other existing Emacs packages, the mechanisms for toggling various
+  parts of Emacs's interface to minimize visual clutter were changed
+  from being minor modes to being customizable user options.  These are
+  the replacement new user options, with a default value of nil:
+
+  • `ffs-hide-cursor'
+  • `ffs-hide-mode-line'
+  • `ffs-hide-header-line'
+
+  Their value is buffer-local, and may be set globally using
+  `setq-default'.  See the [sample configuration] in the manual for an
+  example of how to customize them.
+
+  The new `ffs-page-delimiter' user option defines the page delimiter
+  inserted by `ffs-edit-done' when inserting a new slide.  Emacs's
+  `page-delimiter' regexp should be able to match `ffs-page-delimiter''s
+  value, so if you use a custom `page-delimiter' be sure to customize
+  `ffs-page-delimiter' accordingly.
+
+  The new `ffs-echo-progress' user option controls whether to display in
+  echo area the progress through the slides.  When non-nil, changing
+  slides will also display the progress through the slides in the echo
+  area.  The format of the displayed progress can be customized using
+  the new `ffs-echo-progress-format' user option.
+
+  The new `ffs-edit-display-buffer-alist' user option may be used to
+  control the Window configuration for the `ffs-edit' buffer.  By …  …
+
+
+[sample configuration] <file:ffs.html#Sample-configuration>
