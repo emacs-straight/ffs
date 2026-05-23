@@ -97,8 +97,9 @@ Several new user options for customizing `ffs''s behaviour
   area.  The format of the displayed progress can be customized using
   the new `ffs-echo-progress-format' user option.
 
-  The new `ffs-edit-display-buffer-alist' user option may be used to
-  control the Window configuration for the `ffs-edit' buffer.  By …  …
+  The new `ffs-edit-display-buffer-alist' user option may be used to …
+  …
 
 
-[sample configuration] <file:ffs.html#Sample-configuration>
+[sample configuration]
+<https://kelar.org/~bandali/gnu/emacs/ffs.html#Sample-configuration>
