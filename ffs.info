@@ -5,17 +5,12 @@ Copyright © 2022-2026 Free Software Foundation, Inc.
      Permission is granted to copy, distribute and/or modify this
      document under the terms of the GNU Free Documentation License,
      Version 1.3 or any later version published by the Free Software
-     Foundation; with no Invariant Sections, with the Front-Cover Texts
-     being "A GNU Manual," and with the Back-Cover Texts as in (a)
-     below.  A copy of the license is included in the section entitled
-     "GNU Free Documentation License."
-
-     (a) The FSF's Back-Cover Text is: "You have the freedom to copy and
-     modify this GNU manual."
-
+     Foundation; with no Invariant Sections, no Front-Cover Texts, and
+     no Back-Cover Texts.  A copy of the license is included in the
+     section entitled "GNU Free Documentation License."
 INFO-DIR-SECTION Emacs misc features
 START-INFO-DIR-ENTRY
-* FFS: (ffs).           Simple form feed-separated plain text presentations.
+* FFS: (ffs).  Simple form feed-separated plain text presentations.
 END-INFO-DIR-ENTRY
 
 
@@ -29,27 +24,23 @@ Copyright © 2022-2026 Free Software Foundation, Inc.
      Permission is granted to copy, distribute and/or modify this
      document under the terms of the GNU Free Documentation License,
      Version 1.3 or any later version published by the Free Software
-     Foundation; with no Invariant Sections, with the Front-Cover Texts
-     being "A GNU Manual," and with the Back-Cover Texts as in (a)
-     below.  A copy of the license is included in the section entitled
-     "GNU Free Documentation License."
-
-     (a) The FSF's Back-Cover Text is: "You have the freedom to copy and
-     modify this GNU manual."
+     Foundation; with no Invariant Sections, no Front-Cover Texts, and
+     no Back-Cover Texts.  A copy of the license is included in the
+     section entitled "GNU Free Documentation License."
 
    This manual, written by Amin Bandali, introduces ‘ffs’ and its user
 options, and provides every other piece of information pertinent to it.
 
-   This manual corresponds to ‘ffs’ stable version 0.2.2, released on
-2026-05-21.  Any reference to a newer feature which does not yet form
+   This manual corresponds to ‘ffs’ stable version 0.2.3, released on
+2026-09-22.  Any reference to a newer feature which does not yet form
 part of the latest tagged commit is marked as such.
 
-   Current development target is 0.2.3-git.
+   Current development target is 0.2.4-git.
 
    • Package name (GNU ELPA): ‘ffs’
      (https://elpa.gnu.org/packages/ffs.html)
-   • Official manual: <https://www.kelar.org/~bandali/ffs/ffs.html>
-   • Change log: <https://www.kelar.org/~bandali/ffs/ffs-changelog.html>
+   • Manual: <https://www.kelar.org/~bandali/ffs/ffs.html>
+   • NEWS: <https://www.kelar.org/~bandali/ffs/NEWS>
    • Git repository: <https://git.kelar.org/~bandali/ffs>
    • Backronyms: fabulous foolproof slides - for freedom's sake - ffs
      flips slides
@@ -268,7 +259,7 @@ preparing slides with ‘ffs-mode’ enabled as well as while presenting
 them with ‘ffs-present-mode’ enabled:
 
 Command                         Key binding(s)
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------
 ‘ffs-goto-previous’             ‘p’, ‘<DEL>’, ‘[’
 ‘ffs-goto-next’                 ‘n’, ‘<SPC>’, ‘]’
 ‘ffs-goto-first’                ‘<’
@@ -296,7 +287,7 @@ The ‘ffs-present-mode-map’ keymap used when ‘ffs-present-mode’ is active
 ‘ffs-mode-map’, with the following changes:
 
 Command              Key binding(s)
--------------------------------------------------------
+--------------------------------------
 ‘ffs-stop-or-quit’   ‘s’
 
 
@@ -309,7 +300,7 @@ The ‘ffs-toggle-prefix-map’ keymap, by default bound to ‘t’ in
 ‘ffs-mode-map’, maps the following commands:
 
 Command                         Key binding(s)
-------------------------------------------------------------------
+-------------------------------------------------
 ‘ffs-toggle-echo-progress’      ‘e’
 ‘ffs-toggle-hide-cursor’        ‘c’
 ‘ffs-toggle-hide-mode-line’     ‘m’
@@ -326,7 +317,7 @@ The ‘ffs-edit-mode-map’ keymap for ‘ffs-edit-mode’ is used in ‘ffs-edi
 buffers, when editing an existing slide or inserting a new one:
 
 Command              Key binding(s)
--------------------------------------------------------------
+--------------------------------------
 ‘ffs-edit-discard’   ‘C-c C-k’
 ‘ffs-edit-done’      ‘C-c C-c’
 
@@ -898,23 +889,23 @@ B.3 Concept index
 
 
 Tag Table:
-Node: Top837
-Node: Overview2921
-Node: Installation4765
-Node: GNU ELPA package4946
-Node: Manual installation5418
-Node: Sample configuration6682
-Node: Default key bindings8306
-Node: ffs-mode-map8812
-Node: ffs-present-mode-map10098
-Node: ffs-toggle-prefix-map10608
-Node: ffs-edit-mode-map11255
-Node: Acknowledgements11736
-Node: GNU Free Documentation License12807
-Node: Indices37961
-Node: Function index38131
-Node: Variable index38343
-Node: Concept index38796
+Node: Top669
+Node: Overview2566
+Node: Installation4410
+Node: GNU ELPA package4591
+Node: Manual installation5063
+Node: Sample configuration6327
+Node: Default key bindings7951
+Node: ffs-mode-map8457
+Node: ffs-present-mode-map9635
+Node: ffs-toggle-prefix-map10128
+Node: ffs-edit-mode-map10758
+Node: Acknowledgements11216
+Node: GNU Free Documentation License12287
+Node: Indices37441
+Node: Function index37611
+Node: Variable index37823
+Node: Concept index38276
 
 End Tag Table
 
