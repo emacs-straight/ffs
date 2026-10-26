@@ -39,14 +39,14 @@ part of the latest tagged commit is marked as such.
 
    • Package name (GNU ELPA): ‘ffs’
      (https://elpa.gnu.org/packages/ffs.html)
-   • Manual: <https://www.kelar.org/~bandali/ffs/ffs.html>
-   • NEWS: <https://www.kelar.org/~bandali/ffs/NEWS>
+   • Manual: <https://www.shemshak.org/~amin/ffs/ffs.html>
+   • NEWS: <https://www.shemshak.org/~amin/ffs/NEWS>
    • Git repository: <https://git.kelar.org/~bandali/ffs>
    • Backronyms: fabulous foolproof slides - for freedom's sake - ffs
      flips slides
 
    Dedicated to the loving memory of Farangis Yousefinia
-(https://www.kelar.org/~bandali/farangis.html).
+(https://www.shemshak.org/~farangis/).
 
 * Menu:
 
@@ -345,9 +345,9 @@ package in preparation for submission to GNU ELPA.  You can watch videos
 of these sessions on the author's website:
 
    • FFS code review with Protesilaos
-     (https://www.kelar.org/~bandali/ffs-code-review-prot.html)
+     (https://www.shemshak.org/~amin/ffs-code-review-prot.html)
    • FFS code review and Emacs extensibility with Protesilaos
-     (https://www.kelar.org/~bandali/ffs-emacs-ext-prot.html)
+     (https://www.shemshak.org/~amin/ffs-emacs-ext-prot.html)
 
    Further, inspiration for parts of ‘ffs’'s implementation was
 gratefully drawn from Protesilaos's Logos
@@ -890,22 +890,22 @@ B.3 Concept index
 
 Tag Table:
 Node: Top669
-Node: Overview2566
-Node: Installation4410
-Node: GNU ELPA package4591
-Node: Manual installation5063
-Node: Sample configuration6327
-Node: Default key bindings7951
-Node: ffs-mode-map8457
-Node: ffs-present-mode-map9635
-Node: ffs-toggle-prefix-map10128
-Node: ffs-edit-mode-map10758
-Node: Acknowledgements11216
-Node: GNU Free Documentation License12287
-Node: Indices37441
-Node: Function index37611
-Node: Variable index37823
-Node: Concept index38276
+Node: Overview2557
+Node: Installation4401
+Node: GNU ELPA package4582
+Node: Manual installation5054
+Node: Sample configuration6318
+Node: Default key bindings7942
+Node: ffs-mode-map8448
+Node: ffs-present-mode-map9626
+Node: ffs-toggle-prefix-map10119
+Node: ffs-edit-mode-map10749
+Node: Acknowledgements11207
+Node: GNU Free Documentation License12278
+Node: Indices37432
+Node: Function index37602
+Node: Variable index37814
+Node: Concept index38267
 
 End Tag Table
 
